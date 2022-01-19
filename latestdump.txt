@@ -1,0 +1,150 @@
+
+"Reference Handler" daemon prio=10 Id=2 RUNNABLE
+	at java.base@11.0.13/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@11.0.13/java.lang.ref.Reference.processPendingReferences(Reference.java:241)
+	at java.base@11.0.13/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:213)
+
+"Finalizer" daemon prio=8 Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@684f1a70
+	at java.base@11.0.13/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@684f1a70
+	at java.base@11.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+	at java.base@11.0.13/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:170)
+
+"Signal Dispatcher" daemon prio=9 Id=4 RUNNABLE
+
+"Common-Cleaner" daemon prio=8 Id=10 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@2b91c5c1
+	at java.base@11.0.13/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@2b91c5c1
+	at java.base@11.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at java.base@11.0.13/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:148)
+	at java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+	at java.base@11.0.13/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:134)
+
+"mysql-cj-abandoned-connection-cleanup" daemon prio=5 Id=13 TIMED_WAITING on java.lang.ref.ReferenceQueue$Lock@1ceb24bd
+	at java.base@11.0.13/java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1ceb24bd
+	at java.base@11.0.13/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+	at app//com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:85)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@6537cf78
+
+"GE Update Worker" prio=5 Id=31 TIMED_WAITING
+	at java.base@11.0.13/java.lang.Thread.sleep(Native Method)
+	at app//rs09.game.ge.GrandExchange$boot$t$1.run(GrandExchange.kt:40)
+	at java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+
+"Major Update Worker" prio=5 Id=12 TIMED_WAITING
+	at java.base@11.0.13/java.lang.Thread.sleep(Native Method)
+	at app//rs09.worker.MajorUpdateWorker$worker$1.run(MajorUpdateWorker.kt:98)
+	at java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+
+"Thread-3" prio=5 Id=45 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@59a0af2d
+	at java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@59a0af2d
+	at java.base@11.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.13/java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:483)
+	at java.base@11.0.13/java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:671)
+	at app//core.net.JS5Queue$Js5QueueHandler.run(JS5Queue.java:23)
+
+"NioReactor" prio=5 Id=49 RUNNABLE
+	at java.base@11.0.13/java.nio.HeapByteBuffer.<init>(HeapByteBuffer.java:61)
+	at java.base@11.0.13/java.nio.ByteBuffer.allocate(ByteBuffer.java:348)
+	at app//core.net.IoEventHandler.read(IoEventHandler.java:60)
+	at app//core.net.NioReactor.run(NioReactor.java:130)
+	at java.base@11.0.13/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.13/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@1d50a7ca
+
+"NioReactor" prio=5 Id=50 RUNNABLE (in native)
+	at java.base@11.0.13/sun.nio.ch.EPoll.wait(Native Method)
+	at java.base@11.0.13/sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:120)
+	at java.base@11.0.13/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:124)
+	-  locked sun.nio.ch.Util$2@492ca2f3
+	-  locked sun.nio.ch.EPollSelectorImpl@293dc62d
+	at java.base@11.0.13/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:141)
+	at app//core.net.NioReactor.run(NioReactor.java:110)
+	at java.base@11.0.13/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base@11.0.13/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.13/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	...
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@41184371
+
+"pool-4-thread-1" prio=5 Id=51 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@75b8dde0
+	at java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@75b8dde0
+	at java.base@11.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.13/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+
+"DefaultDispatcher-worker-1" daemon prio=5 Id=52 TIMED_WAITING
+	at java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:357)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+
+"DefaultDispatcher-worker-2" daemon prio=5 Id=53 TIMED_WAITING
+	at java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:357)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+
+"DestroyJavaVM" prio=5 Id=54 RUNNABLE
+
+"kotlinx.coroutines.DefaultExecutor" daemon prio=5 Id=55 TIMED_WAITING on kotlinx.coroutines.DefaultExecutor@59afd29e
+	at java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on kotlinx.coroutines.DefaultExecutor@59afd29e
+	at java.base@11.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+	at app//kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:82)
+	at java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+
+"Login Password Response" daemon prio=5 Id=56 TIMED_WAITING
+	at java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@11.0.13/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:357)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.park(CoroutineScheduler.kt:795)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.tryPark(CoroutineScheduler.kt:740)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:711)
+	at app//kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+
+"DefaultDispatcher-worker-4" daemon prio=5 Id=57 RUNNABLE
+	at java.management@11.0.13/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@11.0.13/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+	at java.management@11.0.13/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+	at app//rs09.Server.threadDump(Server.kt:157)
+	at app//rs09.Server.access$threadDump(Server.kt:33)
+	at app//rs09.Server$main$2.invokeSuspend(Server.kt:116)
+	at app//kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at app//kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	...
+
+"pool-2-thread-1" prio=5 Id=58 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@30d2878
+	at java.base@11.0.13/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@30d2878
+	at java.base@11.0.13/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+	at java.base@11.0.13/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+	at java.base@11.0.13/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:433)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+	at java.base@11.0.13/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base@11.0.13/java.lang.Thread.run(Thread.java:829)
+

@@ -16,4 +16,6 @@
 
 This guide has a nice flow of quests to guide you (some quests don't appear ingame).
 
+https://oldschool.runescape.wiki/w/Optimal_quest_guide
+
 https://www.osrsguide.com/osrs-optimal-quest-guide/
