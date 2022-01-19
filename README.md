@@ -1,5 +1,6 @@
 - [Getting Started: Linux](#getting-started-linux)
 - [Best way to quest](#best-way-to-quest)
+- [Costumizations](#costumizations)
 
 # Getting Started: Linux
 
@@ -19,3 +20,22 @@ This guide has a nice flow of quests to guide you (some quests don't appear inga
 https://oldschool.runescape.wiki/w/Optimal_quest_guide
 
 https://www.osrsguide.com/osrs-optimal-quest-guide/
+
+<details>
+My quest order
+- Cook's Assistant
+- Sheep Shearer
+- The Restless Ghost
+- Romeo & Juliet
+- Pirate's Treasure
+- Imp Catcher
+- Rune Mysteries
+- Witch's Potion
+- Dwarf Cannon
+  
+</details>
+
+
+# Costumizations
+Change botnames in **botnames.txt**.
+
