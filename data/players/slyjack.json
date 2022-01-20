@@ -251,7 +251,7 @@
       "bitArray": [
         {
           "offset": "0",
-          "value": "0"
+          "value": "3"
         }
       ],
       "index": "222"
@@ -278,7 +278,7 @@
       "bitArray": [
         {
           "offset": "0",
-          "value": "0"
+          "value": "1"
         }
       ],
       "index": "302"
@@ -444,28 +444,28 @@
   "states": [],
   "skills": [
     {
-      "static": "28",
-      "dynamic": "28",
+      "static": "29",
+      "dynamic": "29",
       "id": "0",
-      "experience": "10906.666666666646"
+      "experience": "13146.666666666642"
     },
     {
-      "static": "19",
-      "dynamic": "19",
+      "static": "21",
+      "dynamic": "21",
       "id": "1",
-      "experience": "4286.6666666666615"
+      "experience": "5576.666666666663"
     },
     {
-      "static": "26",
-      "dynamic": "26",
+      "static": "30",
+      "dynamic": "30",
       "id": "2",
-      "experience": "9246.666666666666"
+      "experience": "13566.666666666662"
     },
     {
-      "static": "26",
-      "dynamic": "25",
+      "static": "29",
+      "dynamic": "20",
       "id": "3",
-      "experience": "9626.099999999995"
+      "experience": "12897.899999999978"
     },
     {
       "static": "1",
@@ -475,15 +475,15 @@
     },
     {
       "static": "24",
-      "dynamic": "7",
+      "dynamic": "2",
       "id": "5",
-      "experience": "7087.5"
+      "experience": "7605.0"
     },
     {
-      "static": "25",
-      "dynamic": "25",
+      "static": "28",
+      "dynamic": "28",
       "id": "6",
-      "experience": "7990.5"
+      "experience": "11699.2"
     },
     {
       "static": "14",
@@ -522,16 +522,16 @@
       "experience": "4762.5"
     },
     {
-      "static": "2",
-      "dynamic": "2",
+      "static": "7",
+      "dynamic": "7",
       "id": "13",
-      "experience": "93.0"
+      "experience": "747.5"
     },
     {
-      "static": "10",
-      "dynamic": "10",
+      "static": "15",
+      "dynamic": "15",
       "id": "14",
-      "experience": "1300.0"
+      "experience": "2525.0"
     },
     {
       "static": "1",
@@ -549,7 +549,7 @@
       "static": "6",
       "dynamic": "6",
       "id": "17",
-      "experience": "520.0"
+      "experience": "600.0"
     },
     {
       "static": "1",
@@ -714,13 +714,13 @@
     ],
     "witchsExperimentStage": "0",
     "demonSlayer": [
-      false,
+      true,
       false
     ],
     "gardenerAttack": false
   },
   "settings": {
-    "attackStyle": "2",
+    "attackStyle": "4",
     "splitPrivate": false,
     "disableChatEffects": false,
     "clanChatSetting": "0",
@@ -770,7 +770,7 @@
       },
       {
         "questId": "16",
-        "questStage": "0"
+        "questStage": "100"
       },
       {
         "questId": "17",
@@ -866,7 +866,7 @@
       },
       {
         "questId": "99",
-        "questStage": "0"
+        "questStage": "10"
       },
       {
         "questId": "105",
@@ -897,7 +897,7 @@
         "questStage": "0"
       }
     ],
-    "points": "12"
+    "points": "15"
   },
   "globalData": {
     "luthasTask": false,
@@ -1054,7 +1054,7 @@
       "0.0",
       "0.0"
     ],
-    "lootShareDelay": "1642715243039",
+    "lootShareDelay": "1642805280895",
     "godBooks": [
       false,
       false,
@@ -1063,11 +1063,15 @@
     "fritzGlass": false,
     "tutorialStage": "73",
     "ectoCharges": "0",
-    "tutorClaim": "1642593245097",
+    "tutorClaim": "1642715062042",
     "disableNews": false,
     "runReplenishDelay": "0",
     "doubleExp": "0",
     "runReplenishCharges": "0"
+  },
+  "autocastSpell": {
+    "book": "0",
+    "spellId": "14"
   },
   "core_data": {
     "bank": [
@@ -1120,7 +1124,7 @@
         "id": "1440"
       },
       {
-        "amount": "2",
+        "amount": "3",
         "charge": "1000",
         "slot": "8",
         "id": "1448"
@@ -1132,10 +1136,112 @@
         "id": "552"
       },
       {
-        "amount": "30",
+        "amount": "1",
         "charge": "1000",
         "slot": "10",
-        "id": "559"
+        "id": "307"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "11",
+        "id": "4"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "12",
+        "id": "432"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "13",
+        "id": "1442"
+      },
+      {
+        "amount": "2",
+        "charge": "1000",
+        "slot": "14",
+        "id": "1438"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "15",
+        "id": "303"
+      },
+      {
+        "amount": "4",
+        "charge": "1000",
+        "slot": "16",
+        "id": "5322"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "17",
+        "id": "2138"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "18",
+        "id": "1139"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "19",
+        "id": "288"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "20",
+        "id": "1291"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "21",
+        "id": "428"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "22",
+        "id": "426"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "23",
+        "id": "1173"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "24",
+        "id": "1155"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "25",
+        "id": "12158"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "26",
+        "id": "2402"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "27",
+        "id": "1379"
       }
     ],
     "equipment": [
@@ -1143,7 +1249,7 @@
         "amount": "1",
         "charge": "1000",
         "slot": "0",
-        "id": "1139"
+        "id": "1025"
       },
       {
         "amount": "1",
@@ -1161,7 +1267,7 @@
         "amount": "1",
         "charge": "1000",
         "slot": "3",
-        "id": "1291"
+        "id": "1381"
       },
       {
         "amount": "1",
@@ -1172,8 +1278,8 @@
       {
         "amount": "1",
         "charge": "1000",
-        "slot": "5",
-        "id": "1173"
+        "slot": "7",
+        "id": "1011"
       },
       {
         "amount": "1",
@@ -1188,7 +1294,7 @@
         "id": "1061"
       },
       {
-        "amount": "8",
+        "amount": "16",
         "charge": "1000",
         "slot": "13",
         "id": "877"
@@ -1240,145 +1346,121 @@
         "index": "10"
       }
     ],
-    "location": "3223,3222,0",
+    "location": "3227,3436,0",
     "inventory": [
       {
         "amount": "1",
         "charge": "1000",
         "slot": "0",
-        "id": "563"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "1",
         "id": "590"
       },
       {
-        "amount": "1",
+        "amount": "2273538",
         "charge": "1000",
-        "slot": "2",
-        "id": "303"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "4",
-        "id": "3"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "5",
-        "id": "1265"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "6",
-        "id": "2347"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "7",
-        "id": "1349"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "8",
-        "id": "307"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "9",
-        "id": "4"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "10",
-        "id": "1448"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "11",
-        "id": "1438"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "12",
-        "id": "432"
-      },
-      {
-        "amount": "3",
-        "charge": "1000",
-        "slot": "13",
-        "id": "557"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "14",
-        "id": "1442"
-      },
-      {
-        "amount": "11",
-        "charge": "1000",
-        "slot": "15",
-        "id": "555"
-      },
-      {
-        "amount": "18",
-        "charge": "1000",
-        "slot": "16",
+        "slot": "1",
         "id": "995"
       },
       {
         "amount": "1",
         "charge": "1000",
-        "slot": "18",
-        "id": "554"
+        "slot": "2",
+        "id": "1265"
       },
       {
         "amount": "1",
         "charge": "1000",
-        "slot": "19",
-        "id": "841"
+        "slot": "3",
+        "id": "1349"
+      },
+      {
+        "amount": "2",
+        "charge": "1000",
+        "slot": "4",
+        "id": "563"
+      },
+      {
+        "amount": "5436",
+        "charge": "1000",
+        "slot": "5",
+        "id": "554"
+      },
+      {
+        "amount": "5513",
+        "charge": "1000",
+        "slot": "6",
+        "id": "556"
+      },
+      {
+        "amount": "5490",
+        "charge": "1000",
+        "slot": "7",
+        "id": "558"
+      },
+      {
+        "amount": "5494",
+        "charge": "1000",
+        "slot": "8",
+        "id": "555"
+      },
+      {
+        "amount": "6045",
+        "charge": "1000",
+        "slot": "9",
+        "id": "559"
+      },
+      {
+        "amount": "5519",
+        "charge": "1000",
+        "slot": "10",
+        "id": "557"
+      },
+      {
+        "amount": "502",
+        "charge": "1000",
+        "slot": "11",
+        "id": "562"
+      },
+      {
+        "amount": "500",
+        "charge": "1000",
+        "slot": "12",
+        "id": "560"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "13",
+        "id": "1277"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "14",
+        "id": "1277"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "15",
+        "id": "1321"
+      },
+      {
+        "amount": "1",
+        "charge": "1000",
+        "slot": "16",
+        "id": "1291"
+      },
+      {
+        "amount": "15",
+        "charge": "1000",
+        "slot": "17",
+        "id": "39"
       },
       {
         "amount": "1",
         "charge": "1000",
         "slot": "20",
-        "id": "1379"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "22",
-        "id": "315"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "24",
-        "id": "315"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "25",
-        "id": "315"
-      },
-      {
-        "amount": "1",
-        "charge": "1000",
-        "slot": "26",
-        "id": "315"
+        "id": "2347"
       }
     ]
   },
@@ -1553,7 +1635,7 @@
             false,
             false,
             false,
-            false,
+            true,
             false,
             false,
             false,
@@ -1601,7 +1683,7 @@
         ],
         "startedLevels": [
           true,
-          false,
+          true,
           false
         ]
       }
@@ -1995,7 +2077,7 @@
       }
     }
   ],
-  "totalEXP": "74690.6000000002",
+  "totalEXP": "91998.10000000015",
   "grand_exchange": {
     "offers": [
       {
@@ -2058,7 +2140,7 @@
     },
     {
       "type": "int",
-      "value": "175",
+      "value": "234",
       "key": "stats_manager:enemies_killed"
     },
     {
@@ -2073,7 +2155,7 @@
     },
     {
       "type": "int",
-      "value": "17",
+      "value": "31",
       "key": "stats_manager:rocks_mined"
     },
     {
@@ -2120,6 +2202,36 @@
       "type": "bool",
       "value": true,
       "key": "levelup:8"
+    },
+    {
+      "type": "bool",
+      "value": true,
+      "key": "levelup:3"
+    },
+    {
+      "type": "bool",
+      "value": true,
+      "key": "levelup:6"
+    },
+    {
+      "type": "int",
+      "value": "1",
+      "key": "stats_manager:deaths"
+    },
+    {
+      "type": "bool",
+      "value": true,
+      "key": "levelup:2"
+    },
+    {
+      "type": "bool",
+      "value": true,
+      "key": "levelup:14"
+    },
+    {
+      "type": "bool",
+      "value": true,
+      "key": "levelup:13"
     }
   ],
   "treasureTrails": {
